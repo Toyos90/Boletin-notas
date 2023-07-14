@@ -41,5 +41,5 @@ describe('HomeView', () => {
     await wrapper.find('#boton-anadir').trigger('click');
     expect(wrapper.find('#tabla').text()).toContain('Materia');
   });
-  
+
 })
